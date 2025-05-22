@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9ABEC5"
+    android:backgroundTint="#9ABEC5"
+    tools:context=".SubtractionIdea">
+
+    <ImageButton
+        android:id="@+id/backToSubButton9"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        android:tint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home_icon" />
+
+    <ImageButton
+        android:id="@+id/contactButton9"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/contact_icon_black" />
+
+    <ImageButton
+        android:id="@+id/profButton9"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/profile_icon_black" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="200dp"
+        android:layout_height="85dp"
+        android:fontFamily="cursive"
+        android:text="Subtraction"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="375dp"
+        android:layout_height="115dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Students play bingo with subtraction problems, encouraging quick mental math in a fun, competitive setting."
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.829" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="375dp"
+        android:layout_height="115dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Using a large number line, students physically count backwards to solve subtraction problems, reinforcing the concept kinesthetically."
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Idea 2:  Number Line Jump"
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
+
+    <EditText
+        android:id="@+id/editTextText36"
+        android:layout_width="385dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#0F0E0E"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="375dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/amaranth"
+        android:text="Students act out subtraction scenarios with objects, making math tangible and engaging."
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Idea 1:  Subtraction Stories"
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293" />
+
+    <EditText
+        android:id="@+id/editTextText38"
+        android:layout_width="385dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Idea 3:  Subtraction Bingo"
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711" />
+
+    <EditText
+        android:id="@+id/editTextText37"
+        android:layout_width="415dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="375dp"
+        android:layout_height="110dp"
+        android:background="#00BAA5A1"
+        android:fontFamily="@font/acme"
+        android:text="Let's see some interactive teaching ideas to teach SUBTRACTION:"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <EditText
+        android:id="@+id/editTextText39"
+        android:layout_width="415dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/editTextText40"
+        android:layout_width="415dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <ImageButton
+        android:id="@+id/backToMatButton2"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

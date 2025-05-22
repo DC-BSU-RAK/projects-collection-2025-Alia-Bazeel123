@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B2D30"
+    android:backgroundTint="#9ABEC5"
+    tools:context=".AdditionIdea">
+
+    <ImageButton
+        android:id="@+id/backToSubButton8"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        android:tint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home_icon" />
+
+    <ImageButton
+        android:id="@+id/contactButton8"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/contact_icon_black" />
+
+    <ImageButton
+        android:id="@+id/profButton8"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/profile_icon_black" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="155dp"
+        android:layout_height="85dp"
+        android:fontFamily="cursive"
+        android:text="Addition"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.617"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Idea 3:  Math Fact Bingo"
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="375dp"
+        android:layout_height="90dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Play bingo with addition problems to reinforce math facts in an enjoyable and competitive way."
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.839" />
+
+    <EditText
+        android:id="@+id/editTextText28"
+        android:layout_width="385dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#0F0E0E"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="375dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Idea 2:  Interactive Whiteboard Games"
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="375dp"
+        android:layout_height="115dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Engage students in interactive addition games on a whiteboard for interactive learning and immediate feedback."
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.599" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="375dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#00FFFFFF"
+        android:fontFamily="@font/amaranth"
+        android:text="Students use hands-on materials to understand addition by grouping objects and finding sums."
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Idea 1:  Math Manipulative Games"
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <EditText
+        android:id="@+id/editTextText29"
+        android:layout_width="415dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="375dp"
+        android:layout_height="110dp"
+        android:background="#00BAA5A1"
+        android:fontFamily="@font/acme"
+        android:text="Let's see some interactive teaching ideas to teach ADDITION:"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <EditText
+        android:id="@+id/editTextText33"
+        android:layout_width="385dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.392" />
+
+    <EditText
+        android:id="@+id/editTextText34"
+        android:layout_width="415dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <EditText
+        android:id="@+id/editTextText35"
+        android:layout_width="415dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+
+    <ImageButton
+        android:id="@+id/backToMatButton1"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

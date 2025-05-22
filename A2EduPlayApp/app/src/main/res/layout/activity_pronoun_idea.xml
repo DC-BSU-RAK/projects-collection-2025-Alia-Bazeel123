@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3CDD5"
+    android:backgroundTint="#A3CDD5"
+    tools:context=".PronounIdea">
+
+    <ImageButton
+        android:id="@+id/backToSubButton6"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        android:tint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home_icon" />
+
+    <ImageButton
+        android:id="@+id/contactButton6"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/contact_icon_black" />
+
+    <ImageButton
+        android:id="@+id/profButton6"
+        android:layout_width="85dp"
+        android:layout_height="75dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/profile_icon_black" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="200dp"
+        android:layout_height="91dp"
+        android:fontFamily="cursive"
+        android:text="Pronoun"
+        android:textColor="#000000"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="375dp"
+        android:layout_height="95dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Students use puppets to act out stories with pronouns, engaging creatively while reinforcing usage."
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Idea 3:  Pronoun Puppet Show"
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Idea 2:  Pronoun Relay Race"
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="375dp"
+        android:layout_height="90dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Teams race to replace pronouns in sentences, promoting pronoun recognition and teamwork."
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634" />
+
+    <EditText
+        android:id="@+id/editTextText24"
+        android:layout_width="385dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#0F0E0E"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <EditText
+        android:id="@+id/editTextText25"
+        android:layout_width="385dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="375dp"
+        android:layout_height="45dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Idea 1:  Pronoun Picture Match"
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="375dp"
+        android:layout_height="95dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Students match pictures with pronoun cards, reinforcing pronoun understanding in context."
+        android:textColor="#2B2D30"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <EditText
+        android:id="@+id/editTextText21"
+        android:layout_width="415dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="375dp"
+        android:layout_height="110dp"
+        android:background="#00BAA5A1"
+        android:fontFamily="@font/acme"
+        android:text="Let's see some interactive teaching ideas to teach PRONOUN:"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <EditText
+        android:id="@+id/editTextText22"
+        android:layout_width="415dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <EditText
+        android:id="@+id/editTextText23"
+        android:layout_width="415dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:shadowColor="#00EB9D9D"
+        android:textColor="#EFE5E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.892" />
+
+    <ImageButton
+        android:id="@+id/backToEngButton2"
+        android:layout_width="81dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

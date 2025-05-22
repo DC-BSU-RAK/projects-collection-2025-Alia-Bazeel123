@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/adamina</item>
+        <item>@font/agbalumo</item>
+        <item>@font/aguafina_script</item>
+        <item>@font/akaya_kanadaka</item>
+        <item>@font/akronim</item>
+        <item>@font/aleo_thin</item>
+        <item>@font/allura</item>
+        <item>@font/amaranth</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/amaranth_bold_italic</item>
+        <item>@font/amaranth_italic</item>
+    </array>
+</resources>
